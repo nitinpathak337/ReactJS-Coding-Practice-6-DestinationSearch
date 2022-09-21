@@ -1,0 +1,62 @@
+/* Write your CSS here */
+.bg {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 30px;
+}
+@media screen and (min-width: 768px) {
+  .bg {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 30px;
+  }
+}
+
+.heading {
+  font-family: 'Roboto';
+  color: #252627;
+  font-size: 55px;
+  text-align: center;
+}
+.search-container {
+  background-color: #f1f5f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+}
+.search-element {
+  border: none;
+  background-color: #f1f5f9;
+  outline: none;
+  padding: 8px;
+  width: 230px;
+}
+.search-icon {
+  width: 10%;
+}
+.list-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 0px;
+  width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .list-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+}
